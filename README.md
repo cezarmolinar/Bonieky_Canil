@@ -2,11 +2,11 @@
 
 Projeto feito no módulo do curso Node + TypeScript
 
-###Pré-requisitos globais:
+### Pré-requisitos globais
 `npm - -g nodemon typescript ts-node`
 
-###Instalação
+### Instalação
 `npm install`
 
-###Para rodar o projeto
+### Para rodar o projeto
 `npm run start-dev`
