@@ -1,6 +1,6 @@
 type MenuOptions = '' | 'all' | 'dog' | 'cat' | 'fish';
 
-export const createMenuObject = (active : MenuOptions) => {
+export const createMenuObject = (activeItem : MenuOptions) => {
     let returnObject = {
         all : false,
         dog : false,
@@ -8,8 +8,8 @@ export const createMenuObject = (active : MenuOptions) => {
         fish: false
     };
 
-    if (active !== ''){
-        returnObject[active] = true;
+    if (activeItem !== ''){
+        returnObject[activeItem] = true;
     }
 
     return returnObject;    
